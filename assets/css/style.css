@@ -551,6 +551,10 @@ body {
     padding: 140px 0;
 }
 
+.how-it-works-text.partners.text-center {
+    margin-top: 80px;
+}
+
 .how-it-works-area {
     padding-top: 105px;
     padding-bottom: 90px;

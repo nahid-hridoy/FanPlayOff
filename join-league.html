@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>FanplayOff - Join League</title>
+
+        <!-- Favicons-->
+        <link rel="icon" href="assets/img/favicon-600x600.png" sizes="32x32">
+        
+        <!-- Favicons-->
+        <link rel="apple-touch-icon-precomposed" href="assets/img/favicon-600x600.png" sizes="152x152">
+
+        <!-- For iPhone -->
+        <meta name="msapplication-TileColor" content="#e53935">
+        <meta name="msapplication-TileImage" content="assets/img/favicon-600x600.png" sizes="144x144">
+
+        <!-- BOOTSTRAP CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- FONT AWESOME CSS -->
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- MAGNIFIC POPUP -->
+        <link href="assets/css/magnific-popup.css" rel="stylesheet">
+
+        <!-- DATA TABLE CSS -->
+        <link href="assets/css/jquery.dataTables.min.css" type="text/css" rel="stylesheet">
+
+        <!-- DATE PICKER CSS -->
+        <link href="assets/css/bootstrap-datepicker.min.css" type="text/css" rel="stylesheet">
+
+        <!-- PERFECT SCROLLBAR CSS -->
+        <link href="assets/css/perfect-scrollbar.min.css" rel="stylesheet">
+
+        <!-- STACKABLE TABLE CSS -->
+        <link href="assets/css/stacktable.css" rel="stylesheet">
+
+        <!-- MAIN CSS -->
+        <link href="assets/css/style.css" rel="stylesheet">
+
+        <!-- RESPONSIVE CSS -->
+        <link href="assets/css/responsive.css" rel="stylesheet">
+        
+    </head>
+    <body>
+
+        <div class="show-off-canvas-menu-shade"></div>
+        
+        <!-- CREATE ACCOUT POPUP START -->
+        <div class="create-account-popup-menu create-account">
+            <div class="logo-area">
+                <div class="menu-logo"><a href="index.html"><img src="assets/img/logo-white.png" alt=""></a></div>
+                <span class="menu-close"><img src="assets/img/menu-close.png" alt=""></span>
+            </div>
+            <div class="form-area">
+                <h4>Create Account</h4>
+                
+                <p class="terms-and-condition">By creating an account, I agree to the <a href="">Terms of Use</a> and acknowledge that I have read the <a href="">Privacy Policy</a>.</p>
+                <p><a href="" class="sign-with-mail"><img src="assets/img/mail-icon.png" alt=""> Sign up with Email</a></p>
+                <p><a href="" class="sign-with-facebook"><img src="assets/img/facebook-icon.png" alt=""> Sign up with Facebook</a></p>
+                <p class="divider divider-margin">Already have an account? <span class="login-popup">Log In</span></p>
+                
+            </div>
+        </div>
+        <!-- CREATE ACCOUT POPUP END -->
+
+        <!-- LOGIN POPUP START -->
+        <div class="login-popup-menu login-popup-custom">
+            <div class="logo-area">
+                <div class="menu-logo"><a href="index.html"><img src="assets/img/logo-white.png" alt=""></a></div>
+                <span class="menu-close"><img src="assets/img/menu-close.png" alt=""></span>
+            </div>
+            <div class="form-area padding-top-custom">
+
+                <form action="">
+                    <p><input type="text" placeholder="Username or Email Address" required></p>
+                    <p><input type="password" placeholder="Password" required></p>
+                    <p class="padding-top-10"><input type="submit" value="Log In"></p>
+                </form>
+                
+                <p class="terms-and-condition padding-bottom-custom">Forgot <a href="">username</a> or <a href="">password</a>?</p>
+                <p><a href="" class="sign-with-facebook"><img src="assets/img/facebook-icon.png" alt=""> Log In with Facebook</a></p>
+                
+                <p class="sign-up-btn">Sign up</p>
+            </div>
+        </div>
+        <!-- LOGIN POPUP END -->
+
+
+        <!-- SIGNUP POPUP START -->
+        <div class="signup-popup-menu">
+            <div class="logo-area">
+                <div class="menu-logo"><a href="index.html"><img src="assets/img/logo-white.png" alt=""></a></div>
+                <span class="menu-close"><img src="assets/img/menu-close.png" alt=""></span>
+            </div>
+            <div class="form-area">
+                <h4>Create Account</h4>
+
+                <form action="">
+                    <p><input type="text" placeholder="Frist Name" required></p>
+                    <p><input type="text" placeholder="Last Name" required></p>
+                    <p><input type="email" placeholder="Email Address" required></p>
+                    <p><input type="password" placeholder="Password" required></p>
+                    <p class="checkbox-new"><input type="checkbox" id="c1"><label for="c1">Show Password</label></p>
+                    <p><input class="datepicker" type="text" data-date-format="mm/dd/yyyy" placeholder="Birth Day: mm/dd/yy" required></p>
+                    <p class="divider"><input type="submit" value="Sign Up"></p>
+                </form>
+            </div>
+        </div>
+        <!-- SIGNUP POPUP END -->
+
+        <!-- RESPONSIVE MENU START -->
+        <div class="responsive-header">
+            <div class="logo-responsive">
+                <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+            </div>
+            <p class="subtitle">JOIN A LEAGUE</p>
+            <div class="mobile-menu-bar active"><img src="assets/img/menu-bar.png" alt=""></div>
+            <div class="mobile-menu-close"><img src="assets/img/menu-close-responsive.png" alt=""></div>
+        </div>
+        <div class="responsive-menu">
+            <ul>
+                <!--  <li><a href="index.html">Home</a></li>
+                <li><a href="#">Watch List</a></li> -->
+                <li><a href="#">How to play</a></li>
+                <!-- <li><a href="#">Tips &amp; Tricks</a></li> -->
+            </ul>
+            <div class="menu-divider"></div>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#" class="colored-menu login-btn">Log In / Register</a></li>
+            </ul>
+        </div>
+        <!-- RESPONSIVE MENU END -->
+
+        <!-- PRIVATE ACCESS POPUP START -->
+        <div class="private-access-popup-menu private-access">
+            <div class="logo-area">
+                <div class="menu-logo"><a href="index.html"><img src="assets/img/logo-white.png" alt=""></a></div>
+                <span class="menu-close"><img src="assets/img/menu-close.png" alt=""></span>
+            </div>
+            <div class="form-area">
+                <h4>LEAGUE</h4>
+                <p class="terms-and-condition">This League is Private. You need a password to view this league</p>
+                
+                <form action="">
+                    <a href="" class="request-access">Request Access</a>
+                    <p><input type="password" class="text-center" placeholder="Password" required></p>
+                    
+                    <p><input type="submit" class="view-league" value="View League"></p>
+                </form>
+            </div>
+        </div>
+        <!-- PRIVATE ACCESS POPUP END -->
+
+        <!-- PUBLIC ACCESS POPUP START -->
+        <div class="public-access-popup-menu public-access">
+            <div class="logo-area">
+                <div class="menu-logo"><a href="index.html"><img src="assets/img/logo-white.png" alt=""></a></div>
+                <span class="menu-close"><img src="assets/img/menu-close.png" alt=""></span>
+            </div>
+            <div class="public-info-area">
+                <div class="info-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <p><strong>League: </strong>12 Angry Man</p>
+                                <p><strong>Creator: </strong>  Javed H</p>
+                                <p><strong>You are signed in as: </strong>  Javed H</p>
+                                <p><strong>Member Name: </strong>  Javed69</p>
+                            </div>
+                            <div class="col-sm-6 text-right">
+                                <form action="" class="join-league-form">
+                                    <p><input type="text" placeholder="Your Team" required></p>
+                                    
+                                    <p><input type="submit" value="Join This League"></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="responsive-table">
+                <table cellspacing="0" class="team-details-head">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th></th>
+                            <th>Team Name</th>
+                            <th>Manager Name</th>
+                            <th>Status</th>
+                            
+                        </tr>
+                    </thead>
+                </table>
+                <table cellspacing="0" class="team-details-body">
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Sfrr</td>
+                            <td>Sfro</td>
+                            <td>Yasir Rayhan</td>
+                            <td>Joined</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>ADRT</td>
+                            <td>All Due Respect</td>
+                            <td>Alamin Hossin</td>
+                            <td>Joined</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Sfrr</td>
+                            <td>Sfro</td>
+                            <td>Yasir Rayhan</td>
+                            <td>Joined</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>ADRT</td>
+                            <td>All Due Respect</td>
+                            <td>Alamin Hossin</td>
+                            <td>Joined</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Sfrr</td>
+                            <td>Sfro</td>
+                            <td>Yasir Rayhan</td>
+                            <td>Joined</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>ADRT</td>
+                            <td>All Due Respect</td>
+                            <td>Alamin Hossin</td>
+                            <td>Joined</td>
+                        </tr>
+                    </tbody>
+                </table>
+                </div>
+                <div class="league-setting-header">LEAGUE SETTINGS OVERVIEW</div>
+                <div class="invite-manager-body">
+                    <p><strong>Game Format: FANPLAYOFF Custom</strong> FANPLAYOFF Custom</p>
+                    <p><strong>Draft Date: </strong> 21-SEP-2017</p>
+                    <p><strong>Teams in League:</strong> 4</p>
+                    <p><strong>Lineup Locktime:</strong>  Lock Individually at Scheduled Gametime</p>
+                    <p class="margin-bottom-0"><strong>Roster Size:</strong>  16 (9 starters, 7 bench)</p>
+                    <p class="league-special-text"><strong>Offense (16):</strong> QB, RB, RB, WR, WR, TE, FLEX, D/ST, K, BE, BE, BE, BE, BE, BE, NK</p>
+                    <p><strong>Stat Categories:</strong>  52</p>
+                    <p class="league-special-text">RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),  RTD(6pts),  RTD(6pts),  RTD(6pts), RTD(6pts), RTD(6pts), RTD(6pts),</p>
+                </div>
+            </div>
+        </div>
+        <!-- PUBLIC ACCESS POPUP END -->
+
+        <!-- HEADER AREA START -->
+        <div class="header-area header-absolute">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 width-40">
+                        <div class="menu-left">
+                            <ul>
+                                <!--  <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Watch List</a></li> -->
+                                <li><a href="#">How to play</a></li>
+                                <!-- <li><a href="#">Tips &amp; Tricks</a></li> -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 width-20">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 width-40 text-right">
+                        <div class="menu-right">
+                            <ul>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#" class="colored-menu login-btn">Log In / Register</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HEADER AREA END -->
+
+        <!-- HERO AREA START -->
+        <div class="hero-area padding-bottom-less padding-top-less hero-area-bg">
+            <p class="subtitle">JOIN A LEAGUE</p>
+        </div>
+        <!-- HERO AREA END -->
+
+        <!-- JOIN LEAGUE AREA START -->
+        <div class="join-league">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4 custom-col-width-1">
+                        <div class="league-title">
+                            <h2>LEAGUE NAME</h2>
+                        </div>
+                        <div class="league-option league-option-bg-1">
+                            <div class="league-search">
+                                <form action="">
+                                    <p>
+                                        <input type="search" name="" id="" placeholder="Search League">
+                                        <button type="submit"><img src="assets/img/search-icon.png" alt=""></button>
+                                    </p>
+                                </form>
+                            </div>
+                            <p class="filter-title">Filters</p>
+                            <div class="filter-content">
+                                <div class="each-filter">
+                                    <span class="filter-category">Access:</span>
+                                    <ul>
+                                        <li><a href="">All</a></li>
+                                        <li><a href="">Public</a></li>
+                                        <li><a href="">Private</a></li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <span class="filter-category">League Size:</span>
+                                    <ul>
+                                        <li><a href="">All</a></li>
+                                        <li><a href="">3</a></li>
+                                        <li><a href="">4</a></li>
+                                        <li><a href="">5</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p class="filter-title scoring-title">Scoring</p>
+                            <div class="scoring-content scoring-content-bg">
+                                <form action="">
+                                    <p class="form-input-radio">
+                                        <input type="radio" id="test3" name="radio-group" checked>
+                                        <label for="test3" class="option3">Default</label>
+                                    
+                                        <input type="radio" id="test4" name="radio-group" >
+                                        <label for="test4" class="option4">Custom</label>
+                                    </p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 custom-col-width-2">
+                        <div class="league-title">
+                            <h2>League</h2>
+                        </div>
+                        <div class="league-option league-option-bg">
+                            <table cellspacing="0" class="league-details">
+                                <thead>
+                                    <tr>
+                                        <th>NAME</th>
+                                        <th>FORMAR</th>
+                                        <th>ACCESS</th>
+                                        <th>DRAFT DATE</th>
+                                        <th>MEMBERS</th>
+                                        <th>JOIN LEAGUE</th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <div class="height-20"></div>
+                            <table cellspacing="0" class="league-details-body league-details-bg">
+                                <thead class="mobile-display-block">
+                                    <tr>
+                                        <th style="width:25%;">NAME</th>
+                                        <th style="width:15%;">FORMAR</th>
+                                        <th style="width:10%;">ACCESS</th>
+                                        <th style="width:20%;">DRAFT DATE</th>
+                                        <th style="width:13%;">MEMBERS</th>
+                                        <th style="width:17%;">JOIN LEAGUE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td id="access-1">Pablic</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn" id="join-btn-1">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>All Due Respect</td>
+                                        <td>Standard</td>
+                                        <td id="access-2">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 10</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn" id="join-btn-2">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Comms Yard</td>
+                                        <td>Custom</td>
+                                        <td class="access">Public</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 8</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Disciples of Roger</td>
+                                        <td>Standard</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 14</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>West Coast Best Coast</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 10</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>AJG Cleveland</td>
+                                        <td>Custom</td>
+                                        <td class="access">Public</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>The League</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 16</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Wentztastic Season 2</td>
+                                        <td>Custom</td>
+                                        <td class="access">Public</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 17</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>777</td>
+                                        <td>Standard</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 14</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>DYNASTY KEY</td>
+                                        <td>Custom</td>
+                                        <td class="access">Public</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 20</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Meme</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 18</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Texas Custom Patios</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 9</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Meme</td>
+                                        <td>Standard</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 10</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Winter is coming...</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>LL of Produce n Peons</td>
+                                        <td>Standard</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Custom test</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Dynasty league</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 2</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Average Joe's</td>
+                                        <td>Standard</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 13</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Public</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Public</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Public</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Private</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sfro</td>
+                                        <td>Custom</td>
+                                        <td class="access">Public</td>
+                                        <td>Thu, Sep 21 6:00 PM</td>
+                                        <td>1 / 12</td>
+                                        <td style="text-align: center">
+                                            <span class="join-btn">join</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- JOIN LEAGUE AREA END -->
+
+        
+
+        <!-- FOOTER AREA START -->
+        <div class="footer-area-wrap">
+            <div class="container">
+                <div class="footer-area">
+                <div class="row">
+                    <!-- <div class="col-sm-5"> -->
+                    <div class="col-sm-6">
+                        <h3>COMPANY</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><a href="">About <span>fanplayOFF</span></a></p>
+                                <p><a href="">Rules</a></p>
+                                <!-- <p><a href="">Careers</a></p>
+                                <p><a href="">Mobile Apps</a></p>
+                                <p><a href="">Affiliates</a></p> -->
+                                <p><a href="">Refer A Friend</a></p>
+                                <p><a href="">Contact Us</a></p>
+                            </div>
+                            <!-- <div class="col-md-6">
+                                <p><a href="">Terms of Use</a></p>
+                                <p><a href="">Privacy Policy</a></p>
+                                <p><a href="">Responsible Gaming</a></p>
+                                <p><a href="">Account Security</a></p>
+                                <p><a href="">Average Results</a></p>
+                                <p><a href="">Legality</a></p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-2"> -->
+                    <div class="col-sm-6">
+                        <h3>SPORTS</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><a href="">NFL</a></p>
+                                <p><a href="">NBA (Coming Soon!)</a></p>
+                                <p><a href="">MLB (Coming Soon!)</a></p>
+                                <p><a href="">NASCAR (Coming Soon!)</a></p>
+                            </div>
+                            <!-- <div class="col-md-6">
+                                <p><a href="">NFL</a></p>
+                                <p><a href="">NBA</a></p>
+                                <p><a href="">MLB</a></p>
+                                <p><a href="">GOLF</a></p>
+                                <p><a href="">NHL</a></p>
+                                <p><a href="">NAS</a></p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><a href="">MMA</a></p>
+                                <p><a href="">SOC</a></p>
+                                <p><a href="">CFL</a></p>
+                                <p><a href="">LOL</a></p>
+                                <p><a href="">Playbook</a></p>
+                            </div> -->
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-4 col-sm-offset-1">
+                        <h3>LOCATIONS</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><u>US Office</u></p>
+                                <p>125 Summer St.</p>
+                                <p>Floor 5</p>
+                                <p>Boston, MA</p>
+                                <p>02110</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><u>UK Office</u></p>
+                                <p>15 Ingestre Place</p>
+                                <p>Suite 265</p>
+                                <p>Soho, London</p>
+                                <p>W1F OJH</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                </div>
+            </div>
+
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="copyright-text">
+                                &copy; 2017 - 2018 fanplay, LLC All Rights Reserved.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER AREA END -->
+
+
+        <!-- JQUERY JS -->
+        <script src="assets/js/jquery.min.js"></script>
+        
+        <!-- BOOTSTRAP JS -->
+        <script src="assets/js/bootstrap.min.js"></script>
+
+        <!-- MAGNIFIC POPUP -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+        <!-- DATA TABLE JS -->
+        <script type="text/javascript" src="assets/js/jquery.dataTables.min.js"></script>
+
+        <!-- PERFECT SCROLLBAR JS -->
+        <script src="assets/js/perfect-scrollbar.jquery.min.js"></script>
+
+        <!-- DATE PICKER JS -->
+        <script src="assets/js/bootstrap-datepicker.min.js"></script>
+
+        <!-- STACKABLE TABLE JS -->
+        <script src="assets/js/stacktable.js"></script>
+
+        <!-- MAIN JS -->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/join-league.js"></script>
+        
+
+        
+    </body>
+</html>
